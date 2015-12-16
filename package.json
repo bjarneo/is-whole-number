@@ -1,0 +1,32 @@
+{
+  "name": "is-whole-number",
+  "version": "1.0.0",
+  "description": "Check if a number is a whole number.",
+  "main": "is-whole-number.js",
+  "scripts": {
+    "posttest": "npm run lint",
+    "prepublish": "npm prune && npm test",
+    "lint": "eslint .",
+    "test": "mocha is-whole-number.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/is-whole-number.git"
+  },
+  "homepage": "https://github.com/bjarneo/is-whole-number",
+  "bugs": {
+    "url": "https://github.com/bjarneo/is-whole-number/issues"
+  },
+  "keywords": [
+    "is",
+    "whole",
+    "number"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "eslint-config-vgno": "^5.0.0",
+    "eslint": "^1.8.0"
+  }
+}
