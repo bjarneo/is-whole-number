@@ -2,7 +2,7 @@
 
 module.exports = function(num) {
     // num % 1 === 0 checks for a whole number
-    if (num % 1 === 0) {
+    if (num % 1 === 0 && num >= 0) {
         return true;
     }
 
